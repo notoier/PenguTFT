@@ -12,7 +12,6 @@
 - 🔄 **Periodic rank and role updates** (every 6 hours).  
 - 🧹 **Automatic cleanup** of roles for unlinked users.  
 - 🌈 **Color palette** inspired by official TFT rank colors.  
-- 💾 **Local persistence** using `data.json`.  
 
 ---
 
@@ -59,8 +58,6 @@ See the LICENSE
 - 🔄 **Actualización periódica** de rangos y roles (cada 6 horas).
 - 🧹 **Limpieza automática** de roles de usuarios no vinculados.
 - 🌈 Paleta de colores inspirada en los rangos oficiales de TFT.
-- 💾 Persistencia local con `data.json`.
-
 
 ## ⚙️ Instalación y configuración
 
