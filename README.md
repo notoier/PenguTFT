@@ -20,25 +20,24 @@
 
 ### 1️⃣ Clone the repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/PenguTFT.git
-cd PenguTFT
+`git clone https://github.com/YOUR_USERNAME/PenguTFT.git
+cd PenguTFT`
 
 ### 2️⃣ Install dependencies
-npm install
+`npm install`
 
 ### 3️⃣ Configure bot variables
 Copy the example config and edit it:
 
-cp config.json.example config.json
+`cp config.json.example config.json`
 
 Then open config.json and fill in your values:
 
-{
+`{
   "DISCORD_TOKEN": "YOUR_DISCORD_BOT_TOKEN",
   "CLIENT_ID": "YOUR_DISCORD_APPLICATION_ID",
   "RIOT_API_KEY": "YOUR_RIOT_API_KEY"
-}
+}`
 
 ### 🧠 Requirements
     
@@ -46,8 +45,8 @@ Node.js v18 or higher (includes native fetch)
 
 A bot application in the Discord Developer Portal
 
-### ▶️ Running the Bot
-npm start
+### ▶️ Running the Bot locally
+`npm start`
 
 Once the bot is online, test it on your Discord server:
 
@@ -81,12 +80,10 @@ This project is under a custom proprietary license.
 Redistribution, modification, or commercial use is not allowed without explicit written permission from the author.
 See the LICENSE
 
-Spanish: 
+## Spanish: 
 
 # 🐧 PenguTFT
 **Bot de Discord para mostrar, sincronizar y gestionar automáticamente los rangos de Teamfight Tactics.**
-
----
 
 ## 🚀 Características principales
 
@@ -99,51 +96,31 @@ Spanish:
 - 🌈 Paleta de colores inspirada en los rangos oficiales de TFT.
 - 💾 Persistencia local con `data.json`.
 
----
-
-## 🧩 Estructura del proyecto
-
-PenguTFT/
-├── .gitignore
-├── README.md
-├── package.json
-├── index.js
-├── config.json.example
-├── data.json
-└── src/
-├── roles.js
-├── commands.js
-└── utils/
-└── riotApi.js
-
-
----
 
 ## ⚙️ Instalación y configuración
 
 ### 1️⃣ Clonar el repositorio
 
-```bash
-git clone https://github.com/TU_USUARIO/PenguTFT.git
-cd PenguTFT
+`git clone https://github.com/TU_USUARIO/PenguTFT.git
+cd PenguTFT`
 
 ### 2️⃣ Instalar dependencias
 
-npm install
+`npm install`
 
 ### 3️⃣ Configurar variables del bot
 
 Copia el archivo de ejemplo y edítalo:
 
-cp config.json.example config.json
+`cp config.json.example config.json`
 
 Luego abre config.json y completa los valores:
 
-{
+`{
   "DISCORD_TOKEN": "TU_TOKEN_DE_DISCORD",
   "CLIENT_ID": "TU_APPLICATION_ID",
   "RIOT_API_KEY": "TU_API_KEY_DE_RIOT"
-}
+}`
 
 ### 🧠 Requisitos
 
@@ -151,9 +128,9 @@ Node.js v18 o superior (incluye fetch nativo)
 
 Una aplicación de bot en el Discord Developer Portal
 
-### ▶️ Ejecución
+### ▶️ Ejecución en local
 
-npm start
+`npm start`
 
 Cuando el bot esté en línea, pruébalo en tu servidor de Discord:
 
