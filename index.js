@@ -150,7 +150,6 @@ async function updateAllTftRoles() {
 
     console.log('✅ Actualización + limpieza de roles TFT completada.');
 }
-}
 
 
 // 1. Define slash commands
