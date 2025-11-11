@@ -18,44 +18,9 @@
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
+Invite the bot to your discord server via this [link](https://discord.com/oauth2/authorize?client_id=1437860257106890834).
 
-`git clone https://github.com/YOUR_USERNAME/PenguTFT.git
-cd PenguTFT`
-
-### 2️⃣ Install dependencies
-`npm install`
-
-### 3️⃣ Configure bot variables
-Copy the example config and edit it:
-
-`cp config.json.example config.json`
-
-Then open config.json and fill in your values:
-
-`{
-  "DISCORD_TOKEN": "YOUR_DISCORD_BOT_TOKEN",
-  "CLIENT_ID": "YOUR_DISCORD_APPLICATION_ID",
-  "RIOT_API_KEY": "YOUR_RIOT_API_KEY"
-}`
-
-### 🧠 Requirements
-    
-Node.js v18 or higher (includes native fetch)
-
-A bot application in the Discord Developer Portal
-
-### ▶️ Running the Bot locally
-`npm start`
-
-Once the bot is online, test it on your Discord server:
-
-/link YourName#TAG → links your Riot account.
-
-/tft → shows your current TFT rank.
-
-The bot will automatically assign your TFT role (for example, TFT – Gold)
-and update all player ranks every 6 hours.
+## 🚀 Other Features
 
 ### 🔁 Automatic Updates
 
@@ -80,7 +45,7 @@ This project is under a custom proprietary license.
 Redistribution, modification, or commercial use is not allowed without explicit written permission from the author.
 See the LICENSE
 
-## Spanish: 
+# Spanish: 
 
 # 🐧 PenguTFT
 **Bot de Discord para mostrar, sincronizar y gestionar automáticamente los rangos de Teamfight Tactics.**
@@ -99,47 +64,10 @@ See the LICENSE
 
 ## ⚙️ Instalación y configuración
 
-### 1️⃣ Clonar el repositorio
+Invita el bot a tu servidor de Discord mediante este [link](https://discord.com/oauth2/authorize?client_id=1437860257106890834).
 
-`git clone https://github.com/TU_USUARIO/PenguTFT.git
-cd PenguTFT`
 
-### 2️⃣ Instalar dependencias
-
-`npm install`
-
-### 3️⃣ Configurar variables del bot
-
-Copia el archivo de ejemplo y edítalo:
-
-`cp config.json.example config.json`
-
-Luego abre config.json y completa los valores:
-
-`{
-  "DISCORD_TOKEN": "TU_TOKEN_DE_DISCORD",
-  "CLIENT_ID": "TU_APPLICATION_ID",
-  "RIOT_API_KEY": "TU_API_KEY_DE_RIOT"
-}`
-
-### 🧠 Requisitos
-
-Node.js v18 o superior (incluye fetch nativo)
-
-Una aplicación de bot en el Discord Developer Portal
-
-### ▶️ Ejecución en local
-
-`npm start`
-
-Cuando el bot esté en línea, pruébalo en tu servidor de Discord:
-
-/link TuNombre#TAG → vincula tu cuenta de Riot.
-
-/tft → muestra tu rango actual.
-
-El bot asignará automáticamente tu rol de TFT (por ejemplo, TFT – Gold)
-y actualizará todos los rangos cada 6 horas.
+## 🚀 Otras características
 
 ### 🔁 Actualización automática
 
