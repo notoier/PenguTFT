@@ -58,7 +58,28 @@ Once the bot is online, test it on your Discord server:
 The bot will automatically assign your TFT role (for example, TFT – Gold)
 and update all player ranks every 6 hours.
 
+### 🔁 Automatic Updates
 
+Every 6 hours, the bot will:
+
+Fetch the latest TFT rank for all linked players.
+
+Update their roles if they’ve climbed or dropped ranks.
+
+Remove roles from users who are no longer linked.
+
+You can easily adjust the update interval in the code (setInterval).
+
+### 🧹 Automatic Cleanup
+
+If a user leaves the server or is removed from data.json,
+the bot will remove their TFT roles during the next update cycle.
+
+### 📄 License
+
+This project is under a custom proprietary license.
+Redistribution, modification, or commercial use is not allowed without explicit written permission from the author.
+See the LICENSE
 
 Spanish: 
 
