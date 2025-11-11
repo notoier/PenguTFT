@@ -26,7 +26,7 @@ const TIER_ROLE_MAP = {
     'GRANDMASTER': 'TFT – Grandmaster',
     'MASTER': 'TFT – Master',
     'DIAMOND': 'TFT – Diamond',
-    'EMERALD' : 'TFT EMERALD',
+    'EMERALD' : 'TFT – Emerald',
     'PLATINUM': 'TFT – Platinum',
     'GOLD': 'TFT – Gold',
     'SILVER': 'TFT – Silver',
